@@ -1,0 +1,42 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background: url( https://images.unsplash.com/photo-1454913342141-c3005d52af73);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+#texto {
+    text-align: center;
+    padding-top: 25%;
+}
+
+#texto button {
+    font-weight: 300;
+}
+
+nav li>a {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size:12px;
+}
+
+h1, h3 {
+    color: white;
+    text-shadow: 0px 0px 10px #5c5c5c,
+                 0px 0px 25px #1f1f1f;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+hr {
+    width: 40%;
+    margin: 20px auto;
+}

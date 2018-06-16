@@ -1,0 +1,36 @@
+body {
+    width: 60%;
+    margin: 10px auto;
+    border: 10px solid #bdc3c7;
+    padding: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+article h2 {
+    color: #2c3e50;
+}
+
+article .data {
+    color: #3498db;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+article p {
+    font-size: 13px;
+}
+
+article .blockquote {
+    border-left: 5px solid gray;
+    padding-left: 5px;
+}
+
+hr {
+   margin: 10px 0 30px;
+   border: 0.2em solid #c5c5c5;
+}
+
+article:last-of-type hr{
+    margin-bottom: 10px;
+}

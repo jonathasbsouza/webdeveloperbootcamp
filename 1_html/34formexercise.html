@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Register</h1>
+  <form action="">
+    <p>
+      <label for="firstname">First Name:</label>
+      <input id="firstname" name="firstname" type="text" placeholder="John" required>
+      <label for="lastname">Last Name:</label>
+      <input id="lastname" name="lastname" type="text" placeholder="Doe" required>
+    </p>
+    <p>
+      <label for="male">Male</label>
+      <input id="male" type="radio" name="gender" value="male">
+      <label for="female">Female</label>
+      <input id="female" type="radio" name="gender" value="female">
+      <label for="other">Other</label>
+      <input id="other" type="radio" name="gender" value="other">
+      <label for="email">Email:</label>
+      <input id="email" name="email" type="email" placeholder="you@gmail.com" required>
+      <label for="password">Password:</label>
+      <input type="password" name="pw" id="password" pattern=".{5,10}" title="Between 5 and 10 characters" required>
+    </p>
+    <p>
+      <label for="birthday">Birthday:</label>
+      <select name="Month" id="birthday">
+      <option value="">Month</option>
+      <option value="">Jan</option>
+      <option value="">Feb</option>
+      <option value="">Mar</option>
+      <option value="">Apr</option>
+    </select>
+      <select name="Day" id="birthday">
+      <option value="">Day</option>
+      <option value="">01</option>
+      <option value="">02</option>
+      <option value="">03</option>
+      <option value="">04</option>
+    </select>
+      <select name="Year" id="birthday">
+      <option value="">Year</option>
+      <option value="">2017</option>
+      <option value="">2016</option>
+      <option value="">2015</option>
+      <option value="">2014</option>
+    </select></p>
+    <p>
+      I agree with the terms and conditions <input type="checkbox"></p>
+    <p>
+      <input type="submit">
+  </form>
+</body>
+
+</html>
