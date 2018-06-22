@@ -1,4 +1,4 @@
-let numbers = ["1", "2", "3"];
+let numbers = ['1', '2', '3'];
 let equal = [1,1,1,1,1,1,1,1,1];
 let numbers2 = [1,34,3456,2,33,378,9800,13,25];
 
@@ -17,6 +17,8 @@ function isUniform(array){
     return true;
 }
 
+//Sum Array
+
 function sumArray(array){
     let soma = 0;
     array.forEach(function(item){
@@ -24,6 +26,14 @@ function sumArray(array){
     });
     console.log(soma);
 }
+
+function sumArray2(array) {
+    let soma = array.reduce((acc, crr) => acc + crr);
+    console.log(soma);
+  }
+
+
+//Max number in array
 
 function max(array){
     let maxNumber = array[0];
