@@ -21,8 +21,11 @@ let movieDB = [
     }
 ];
 
+
 function movieList(arr) {
     arr.forEach(el => {
-        console.log((el.haveWatched === true ? 'You have watched ' : 'You haven\'t watched ') + el.name + ' - ' + el.rating + ' stars.')
+        const watched = el.haveWatched ? 'You have watched' : 'You haven\'t watched';
+        console.log(`${watched} ${el.name} - ${el.rating} stars.`)
     });
 }
+
