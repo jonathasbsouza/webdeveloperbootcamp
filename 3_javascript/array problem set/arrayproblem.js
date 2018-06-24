@@ -44,3 +44,7 @@ function max(array){
     }
     console.log(maxNumber)
 }
+
+function max2(arr) {
+    return arr.reduce((acc, crr) => (crr > acc) ? crr : acc);
+}
